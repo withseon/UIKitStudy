@@ -20,7 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene) // SceneDelegate의 window 프로퍼티에 설정해줌
         
         // MARK: Window 구성
-        let mainViewController = UIKitTestViewController()   // ViewController 인스턴스 생성
+//        let mainViewController = UIKitTestViewController()   // ViewController 인스턴스 생성
+        let mainViewController = SampleCollectionViewController()
         window?.rootViewController = mainViewController // window의 rootViewController(앱의 주요화면 관리)로 설정
         window?.makeKeyAndVisible() // 구성된 창 띄우기
         

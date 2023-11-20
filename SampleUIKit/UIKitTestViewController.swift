@@ -103,6 +103,7 @@ class UIKitTestViewController: UIViewController {
             }()
             
             categoryContentView.addSubview(cateButton)
+            
         }
         
         NSLayoutConstraint.activate([
