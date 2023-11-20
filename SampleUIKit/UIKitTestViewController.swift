@@ -361,13 +361,13 @@ class UIKitTestViewController: UIViewController {
             subtitleDrop.leadingAnchor.constraint(equalTo: mainContentView.leadingAnchor, constant: 16)
         ])
         
-        let moreDrop: UILabel = {
-            let label = UILabel()
-            label.text = "더보기"
-            label.font = UIFont.systemFont(ofSize: 10)
-            label.textColor = .gray
-            label.translatesAutoresizingMaskIntoConstraints = false
-            return label
+        let moreDrop: UIButton = {
+            let button = UIButton()
+            button.setTitle("더보기", for: .normal)
+            button.titleLabel?.font = UIFont.systemFont(ofSize: 10)
+            button.setTitleColor(.gray, for: .normal)
+            button.translatesAutoresizingMaskIntoConstraints = false
+            return button
         }()
     
         mainContentView.addSubview(moreDrop)
