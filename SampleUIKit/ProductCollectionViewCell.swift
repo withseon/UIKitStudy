@@ -13,7 +13,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
     private let imageView: UIImageView = {
         let imageview = UIImageView()
         imageview.backgroundColor = .gray
-        imageview.layer.cornerRadius = 30
+        imageview.layer.cornerRadius = 10
         imageview.translatesAutoresizingMaskIntoConstraints = false
         return imageview
     }()
@@ -22,7 +22,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
         let label = UILabel()
         label.text = "브랜드명"
         label.textAlignment = .left
-        label.font = UIFont.boldSystemFont(ofSize: 20)
+        label.font = UIFont.boldSystemFont(ofSize: 15)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -31,6 +31,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
         let label = UILabel()
         label.text = "상품명"
         label.textAlignment = .left
+        label.font = UIFont.systemFont(ofSize: 15)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -38,7 +39,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
     private let priceLabel: UILabel = {
         let label = UILabel()
         label.text = "가격"
-        label.font = UIFont.boldSystemFont(ofSize: 20)
+        label.font = UIFont.boldSystemFont(ofSize: 15)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -46,7 +47,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
     private let tagLabel: UILabel = {
         let label = UILabel()
         label.text = "구매가/즉시구매가"
-        label.font = UIFont.systemFont(ofSize: 13)
+        label.font = UIFont.systemFont(ofSize: 11)
         label.textColor = .gray
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -78,7 +79,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
         
         contentView.addSubview(priceLabel)
         NSLayoutConstraint.activate([
-            priceLabel.widthAnchor.constraint(equalTo: contentView.widthAnchor),
+//            priceLabel.widthAnchor.constraint(equalTo: contentView.widthAnchor),
             priceLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             priceLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 16)
         ])

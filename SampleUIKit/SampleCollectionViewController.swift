@@ -68,6 +68,10 @@ extension SampleCollectionViewController: UICollectionViewDataSource {
 extension SampleCollectionViewController: UICollectionViewDelegateFlowLayout {
     // 셀 크기 설정
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 200, height: 200)
+        return CGSize(width: 200, height: 165)
     }
+}
+
+#Preview {
+    SampleCollectionViewController()
 }

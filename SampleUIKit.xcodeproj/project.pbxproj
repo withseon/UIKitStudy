@@ -10,6 +10,8 @@
 		2C13202C2B067E1600400466 /* UIKitTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13202B2B067E1600400466 /* UIKitTestViewController.swift */; };
 		2C3A661A2B0BC5A9001DB725 /* SampleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A66192B0BC5A9001DB725 /* SampleCollectionViewController.swift */; };
 		2C3A661C2B0BCB85001DB725 /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A661B2B0BCB85001DB725 /* SampleCollectionViewCell.swift */; };
+		2C3A661E2B0BF6F8001DB725 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A661D2B0BF6F8001DB725 /* ProductCollectionViewCell.swift */; };
+		2C8B2DF62B0E437200827607 /* ProductCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B2DF52B0E437200827607 /* ProductCollectionViewController.swift */; };
 		2CB44ECE2AF0DACB00BF02F4 /* UIKitTest1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB44ECD2AF0DACB00BF02F4 /* UIKitTest1.storyboard */; };
 		2CB44ED22AF0F28A00BF02F4 /* UIKitTest2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB44ED12AF0F28A00BF02F4 /* UIKitTest2.storyboard */; };
 		2CC735902AE6C43500BEEEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7358F2AE6C43500BEEEF1 /* AppDelegate.swift */; };
@@ -43,6 +45,8 @@
 		2C13202B2B067E1600400466 /* UIKitTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitTestViewController.swift; sourceTree = "<group>"; };
 		2C3A66192B0BC5A9001DB725 /* SampleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewController.swift; sourceTree = "<group>"; };
 		2C3A661B2B0BCB85001DB725 /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C3A661D2B0BF6F8001DB725 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C8B2DF52B0E437200827607 /* ProductCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewController.swift; sourceTree = "<group>"; };
 		2CB44ECD2AF0DACB00BF02F4 /* UIKitTest1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIKitTest1.storyboard; sourceTree = "<group>"; };
 		2CB44ED12AF0F28A00BF02F4 /* UIKitTest2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIKitTest2.storyboard; sourceTree = "<group>"; };
 		2CC7358C2AE6C43500BEEEF1 /* SampleUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +115,8 @@
 				2CC735912AE6C43500BEEEF1 /* SceneDelegate.swift */,
 				2CC735932AE6C43500BEEEF1 /* ViewController.swift */,
 				2C13202B2B067E1600400466 /* UIKitTestViewController.swift */,
+				2C8B2DF52B0E437200827607 /* ProductCollectionViewController.swift */,
+				2C3A661D2B0BF6F8001DB725 /* ProductCollectionViewCell.swift */,
 				2C3A66192B0BC5A9001DB725 /* SampleCollectionViewController.swift */,
 				2C3A661B2B0BCB85001DB725 /* SampleCollectionViewCell.swift */,
 				2CC735982AE6C43600BEEEF1 /* Assets.xcassets */,
@@ -273,9 +279,11 @@
 			files = (
 				2C3A661A2B0BC5A9001DB725 /* SampleCollectionViewController.swift in Sources */,
 				2CC735942AE6C43500BEEEF1 /* ViewController.swift in Sources */,
+				2C3A661E2B0BF6F8001DB725 /* ProductCollectionViewCell.swift in Sources */,
 				2C13202C2B067E1600400466 /* UIKitTestViewController.swift in Sources */,
 				2CC735902AE6C43500BEEEF1 /* AppDelegate.swift in Sources */,
 				2C3A661C2B0BCB85001DB725 /* SampleCollectionViewCell.swift in Sources */,
+				2C8B2DF62B0E437200827607 /* ProductCollectionViewController.swift in Sources */,
 				2CC735922AE6C43500BEEEF1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -34,4 +34,3 @@ class SampleCollectionViewCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 }
-
